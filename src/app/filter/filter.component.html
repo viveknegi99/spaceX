@@ -1,0 +1,8 @@
+<div class="filter">
+  <div class="title">{{title}}</div>
+  <div class="cell" (click)="filterClicked(fVal)"  *ngFor="let fVal of filterArr">
+    <span [class.active]="fVal.isActive">{{ fVal.value}}</span>
+  </div>
+
+</div>
+

@@ -1,0 +1,88 @@
+.wrapper{
+  margin: 10px 0 5px 20px;
+
+  display: inline-block;
+  float: left;
+  min-width: 300px;
+  background-color: #ded4d4;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow:  1px 1px 10px 1px #888888;
+}
+
+.name {
+  color: blue;
+  font-size: 18;
+  font-weight: 600;
+  padding: 5px 0;
+}
+
+.image img{
+  width: 100%;
+}
+
+.mission-id{
+  padding: 2px 0;
+}
+
+.mission-id span:first-child{
+  font-weight: 600;
+}
+
+.mission-id ul{
+  margin: 0;
+  padding: 0 0 0 30px;
+  color: rgb(52, 52, 189);
+}
+
+.year {
+  padding: 2px 0;
+  overflow: auto;
+}
+
+.year span{
+  display: inline-block;
+  width: 50%;
+  float: right;
+}
+
+.year span:first-child{
+  font-weight: 600;
+  float: left;
+}
+
+.year span:nth-child(2){
+  color: rgb(52, 52, 189);
+}
+
+
+/* For Tablets */
+@media only screen and (min-width: 700px) {
+   .wrapper{
+    max-width: 38%;
+    min-width: 186px;
+    height: 400px;
+  }
+
+}
+
+ /* For Desktops */
+ @media only screen and (min-width: 1024px) {
+   .wrapper{
+    max-width: 18%;
+    min-width: 150px;
+    height: 400px;
+  }
+
+}
+
+ /* For XL Device */
+ @media only screen and (min-width: 1440px) {
+
+   .wrapper{
+    min-width: 20%;
+    min-width: 200px;
+    height: 400px;
+  }
+
+}

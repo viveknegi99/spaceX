@@ -1,0 +1,32 @@
+
+<h3 class="header">SpaceX Launch Programs</h3>
+<div class="loader-wrapper" *ngIf="isLoading">
+  <div class="loader"></div>
+</div>
+<div class="continer">
+  <div class="filter-wrapper">
+    <div class="filter-title"> Filters </div>
+    <app-filter
+    (selectedValue)="selectedYearHandler($event)"
+    [title]="'Launch Year'"
+    [values]="years"></app-filter>
+
+    <app-filter
+    (selectedValue)="selectedLaunchHandler($event)"
+    [title]="'Successful Launch'"
+    [values]="launchOpt"
+    ></app-filter>
+
+    <app-filter
+    (selectedValue)="selectedLandingHandler($event)"
+    [title]="'Successful Landing'"
+    [values]="landOpt"
+    ></app-filter>
+  </div>
+  <div class="card-wrapper">
+    <ng-container *ngFor="let project of projects">
+      <app-card [project]="project" [skeleton]="skeleton"></app-card>
+    </ng-container>
+  </div>
+</div>
+

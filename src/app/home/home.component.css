@@ -1,0 +1,86 @@
+.header{
+  font-size: 28px;
+  font-weight: 600;
+  padding: 10px;
+  background-color: #2e8080;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+}
+.continer {
+  width: 100%;
+  padding-top: 50px;
+}
+.filter-title {
+  font-size: 22px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.filter-wrapper {
+  margin: 10px auto;
+  display: inline-block;
+  float: left;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.card-wrapper{
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+
+/* For Tablets */
+@media only screen and (min-width: 700px) {
+  .filter-wrapper {
+    max-width: 200px;
+    margin: 0;
+    width: 30%;
+  }
+  .card-wrapper{
+    min-width: 400px;
+    width: 70%;
+  }
+
+
+}
+
+ /* For Desktops */
+ @media only screen and (min-width: 1024px) {
+  .filter-wrapper {
+    max-width: 250px;
+    margin: 0;
+    width: 20%;
+  }
+  .card-wrapper{
+    min-width: 800px;
+    width: 80%;
+  }
+  .card-wrapper .wrapper{
+    max-width: 20%;
+  }
+
+}
+
+ /* For XL Device */
+ @media only screen and (min-width: 1440px) {
+  .filter-wrapper {
+    max-width: 250px;
+    margin: 0;
+    width: 20%;
+  }
+  card-wrapper{
+    min-width: 1000px;
+    width: 80%;
+  }
+  .card-wrapper .wrapper{
+    min-width: 25%;
+  }
+
+}
+

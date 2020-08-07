@@ -1,0 +1,32 @@
+<div class="wrapper">
+  <div *ngIf="skeleton.yes">
+
+  </div>
+  <div *ngIf="!skeleton.yes">
+    <div class="image">
+      <img src="{{project.links.mission_patch_small}}" alt="Falcon">
+    </div>
+    <div class="name">{{project.mission_name}}</div>
+    <div class="mission-id" >
+      <span>Mission Ids:</span>
+      <ul>
+        <li *ngFor="let id of project.mission_id">
+          {{id}}
+        </li>
+      </ul>
+    </div>
+    <div class="year">
+      <span>Launch Year: </span>
+      <span>{{project.launch_year}}</span>
+    </div>
+    <div class="year">
+      <span>Successful Launch: </span>
+      <span>{{project.launch_success ? 'True': 'False'}}</span>
+    </div>
+    <div class="year">
+      <span>Successful Lainding: </span>
+      <span>{{project.rocket?.first_stage?.cores[0]?.land_success ? 'True': 'False'}}</span>
+    </div>
+  </div>
+
+</div>
