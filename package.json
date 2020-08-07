@@ -4,6 +4,8 @@
   "private": true,
   "description": "spaceX UI solution.",
   "scripts": {
+    "start:heroku": "node dist/server",
+    "postinstall": "npm run build:ssr",
     "ng": "ng",
     "start": "ng serve",
     "test": "ng test",
