@@ -18,9 +18,11 @@
 
 ![Desktop Report](https://user-images.githubusercontent.com/51847277/89610436-1ceacd00-d898-11ea-9530-9bd992d509c2.png)
 
+![Desktop Report](https://user-images.githubusercontent.com/51847277/89620113-c936ae80-d8ac-11ea-8bd0-3e6d329162a9.png)
+
 > Mobile
 
-![Mobile Report](https://user-images.githubusercontent.com/51847277/89610475-3724ab00-d898-11ea-93c9-d4ef16cd584a.png)
+![Mobile Report](https://user-images.githubusercontent.com/51847277/89620284-11ee6780-d8ad-11ea-9ab6-ccbde9b760f3.png)
 
 ## Install dependecies
 
