@@ -11,6 +11,6 @@ export class AppComponent {
 
   }
   public openGitRepo(){
-    this._launchService.getNativeWindow().open('https://github.com/viveknegi99');
+    this._launchService.getNativeWindow().open('https://github.com/viveknegi99/spaceX');
   }
 }
